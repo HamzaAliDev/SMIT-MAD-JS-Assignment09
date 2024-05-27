@@ -1,0 +1,35 @@
+.header-back , footer {
+    background-color: #041f43 !important;
+
+}
+
+main{
+    min-height: calc(100vh - 112px);
+    
+}
+
+.form-border{
+    min-height : 164px;
+
+}
+.btn-danger{
+    font-size: 0.9rem;
+    width: 300px;
+}
+form .input{
+    width: 240px;
+    height: 32px;
+}
+form .btn{
+    width: 240px;
+    height: 32px;
+    padding: 3px 12px 9px 12px;
+}
+
+.output-border{
+    min-height : 80px;
+
+}
+.table-responsive {
+    overflow-x: auto; /* Ensures horizontal scroll for small screens */
+}
