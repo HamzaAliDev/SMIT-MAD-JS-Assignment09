@@ -77,5 +77,7 @@ const handlePrintTable = () =>{
 
 
 const handleClearBtn = () =>{
-  document.getElementById('table-output').innerHTML = ""
+  // document.getElementById('table-output').innerHTML = ""
+  document.getElementById('table-header').innerHTML = "";
+  document.getElementById('table-data').innerHTML = "";
 }
